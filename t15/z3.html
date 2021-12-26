@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Форми</title>
+		<style>
+			body{
+				background: firebrick;
+				color: white;
+				font-family: Tahoma;
+			}
+			input[type=email],input[type=password]{
+				margin: 10px 0 20px;
+				height: 30px;
+			}
+			form{
+				padding: 20px;
+			}
+			form div{
+				margin-bottom: 10px;
+			}
+			button{
+				padding: 5px 10px;
+				border-radius: 10px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1 align="center">Форма реєстрації</h1>	
+		
+		
+		<form action="z1.html">
+				<div>
+					<label>Ваш логін</label><br>
+					<input type="email">
+				</div>
+				
+				<div>
+					<label>Ваш пароль</label><br>
+					<input type="password">
+				</div>
+				
+				<div>
+					<label>Виберіть стать </label><br>
+					<input type="radio" name="gender"> Жіноча <br>
+					<input type="radio" name="gender"> Чоловіча <br>
+				</div>
+				
+				<div>
+					<label>3aвершено навчання у</label><br>
+					<input type="checkbox" > Школу <br>
+					<input type="checkbox" > Коледж <br>
+					<input type="checkbox" > Університет <br>
+				</div>
+				
+				<div class="btn_box">
+					<button type="sumbit">3ареєструватись</button>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

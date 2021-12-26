@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title>Форми</title>
+		<style>
+			.modal{
+				width: 50%;
+				height: 450px;
+				border: 2px solid blue;
+				border-radius: 5px;
+				margin: 100px auto;
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+			}
+			form{
+				width: 50%;
+			}
+			input{
+				width: 100%;
+				margin: 8px 0 20px;
+				height: 30px;
+				padding-left: 5px;
+			}
+			body{
+				font-family: Tahoma;
+			}
+			button, a{
+				padding: 10px 20px;
+				border: none;
+				color: white;
+				background: linear-gradient(to right, blue, red);
+				font-weight: bold;
+				cursor: pointer;
+				text-decoration: none;
+				font-size: 14px;
+			}
+			.btn_box{
+				display: flex;
+				justify-content: flex-end;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="modal">
+			<h1 align="center">Доброго дня</h1>
+			
+			<form action="z2.html">
+			
+				<div>
+					<label>Ваш логін</label><br>
+					<input type="email">
+				</div>
+				
+				<div>
+					<label>Ваш пароль</label><br>
+					<input type="password">
+				</div>
+				
+				<div class="btn_box">
+					<button type="sumbit">Увійти</button>
+				</div>
+			</form>
+			
+			<h2 align="center">У вас ще не має аккаунту</h2>
+			
+			<div class="btn_box">
+				<a href="z3.html">Реєстрація</a>
+			</div>
+		</div>
+	</body>
+</html>
