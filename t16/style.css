@@ -1,0 +1,25 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: cursive;
+	color: white;
+}
+nav{
+	padding: 15px 30px;
+	background: linear-gradient(to right,white,blue);
+}
+nav a{
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: navy;
+	margin-right: 14px;
+}
+nav a:hover{
+	color: red;
+}
+main{
+	min-height: 100vh;
+	background-image: radial-gradient(ellipse,#2A308B,#000 62%);
+	padding: 16px 40px;
+}
+

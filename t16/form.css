@@ -1,0 +1,27 @@
+button{
+	border: none;
+	padding: 12px;
+	background: linear-gradient(to right, purple, red);
+	color: white;
+	cursor; pointer;
+}
+
+button:hover;
+	background: linear-gradient(to right, red, purple);
+}
+
+form div{
+	margin-bottom: 14px;
+}
+
+input[type="text"]:invalid,
+input[type="email"]:invalid,
+input[type="number"]:invalid{
+	background: red;
+}
+
+input[type="text"]:valid,
+input[type="email"]:valid,
+input[type="number"]:valid{
+	background: lime;
+}
