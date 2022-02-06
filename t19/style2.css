@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(
+        rgb(167, 85, 85),
+        rgb(224, 151, 151),
+        rgb(244, 151, 151),
+        rgb(224, 151, 151)
+    );
+    min-height: 100vh;
+    font-family: 'Quintessential', cursive; 
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 120px;
+}
+.container{
+    max-width: 540px;
+    margin: 0 auto;
+}
+audio{
+    height: 40px;
+    width: 100%;
+}
+
